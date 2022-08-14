@@ -1,5 +1,7 @@
 {
-  "require": {},
+  "require": {
+    "ext-json": "*"
+  },
   "require-dev": {
     "symfony/var-dumper": "^4.3"
   },

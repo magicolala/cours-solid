@@ -5,9 +5,9 @@
 require_once('../vendor/autoload.php');
 
 // Définitions de chemins utiles dans l'application
-define('TEMPLATES_DIR', __DIR__ . '/../templates/');
-define('SRC_DIR', __DIR__ . '/');
-define('PUBLIC_DIR', __DIR__ . '/../public/');
+const TEMPLATES_DIR = __DIR__ . '/../templates/';
+const SRC_DIR = __DIR__ . '/';
+const PUBLIC_DIR = __DIR__ . '/../public/';
 
 /**
  * Ce tableau met en relation des routes avec des méthodes de controller
